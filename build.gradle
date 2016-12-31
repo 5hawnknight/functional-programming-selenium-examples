@@ -13,4 +13,5 @@ dependencies {
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: property('selenium.version')
     compile group: 'org.seleniumhq.selenium', name: 'selenium-server', version: property('selenium.version')
     compile group: 'org.seleniumhq.selenium', name: 'selenium-remote-driver', version: property('selenium.version')
+    compile group: 'org.testng', name: 'testng', version: property('testng.version')
 }
